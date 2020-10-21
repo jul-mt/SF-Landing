@@ -1,0 +1,147 @@
+body {
+    margin:0;
+    font-family: Nunito Sans, Arial;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.header__button {
+    font-size: 11px;
+    line-height: 15px;
+    padding: 13px 33px;
+    font-style: italic;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logo {
+    color: #E3B873;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation__item {
+    margin-right: 47px;
+    
+}
+
+.header-navigation__item .link {
+    text-decoration: none;
+    color: white;
+}
+
+.header-navigation__item .link:hover {
+    color: #E3B873;
+}
+
+.tel {
+    color: #E3B873;
+    margin-right: 45px;
+    
+}
+
+.main-page1 {
+    background-image: url('../images/img1.jpg');
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.main-page1-container{
+    position: relative;
+    z-index: 1;    
+}
+
+.main-page1-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.title {
+    font-family: Yeseva One, Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+
+.main-page1__title{
+    max-width: 550px;
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+
+.text-decoration {
+    color: #E3B873;
+}
+
+.main-page1__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    max-width: 504px;
+    margin-top: 0;
+    /*margin-bottom: 19px;*/
+}
+
+.main-page1__button {
+    font-size: 11px;
+    line-height: 15px;
+    padding: 20px 0;
+    width: 207px;
+    margin-right: 20px;
+    font-style: italic;
+}
+
+
+.button-transparent{
+    border: 1px solid #FFFFFF; 
+    background: none;
+    box-shadow: none;
+}    
